@@ -49,6 +49,7 @@
         <li><a href="#about" class="nav-link text-slate-400 hover:text-slate-100 transition-colors duration-200">About</a></li>
         <li><a href="#experience" class="nav-link text-slate-400 hover:text-slate-100 transition-colors duration-200">Experience</a></li>
         <li><a href="#skills" class="nav-link text-slate-400 hover:text-slate-100 transition-colors duration-200">Skills</a></li>
+        <li><a href="#projects" class="nav-link text-slate-400 hover:text-slate-100 transition-colors duration-200">Projects</a></li>
         <li><a href="#contact" class="nav-link text-slate-400 hover:text-slate-100 transition-colors duration-200">Contact</a></li>
       </ul>
 
@@ -72,6 +73,7 @@
         <li><a href="#about" class="mobile-nav-link block py-3 text-slate-300 hover:text-slate-100 font-medium text-lg transition-colors">About</a></li>
         <li><a href="#experience" class="mobile-nav-link block py-3 text-slate-300 hover:text-slate-100 font-medium text-lg transition-colors">Experience</a></li>
         <li><a href="#skills" class="mobile-nav-link block py-3 text-slate-300 hover:text-slate-100 font-medium text-lg transition-colors">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link block py-3 text-slate-300 hover:text-slate-100 font-medium text-lg transition-colors">Projects</a></li>
         <li><a href="#contact" class="mobile-nav-link block py-3 text-slate-300 hover:text-slate-100 font-medium text-lg transition-colors">Contact</a></li>
         <li class="pt-3 border-t border-slate-800 mt-2">
           <a href="mailto:otabekboymirzayev16@gmail.com" class="block py-3 text-indigo-400 font-medium text-lg">otabekboymirzayev16@gmail.com</a>
@@ -456,6 +458,154 @@
     </section>
 
     <!-- ═══════════════════════════════════════════
+         PROJECTS SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="projects" class="py-24 lg:py-36 relative bg-slate-900/40">
+      <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
+
+      <div class="max-w-7xl mx-auto px-6 lg:px-10">
+        <div class="section-eyebrow mb-16">
+          <span class="eyebrow-slash">// 04</span>
+          <span class="eyebrow-label">Projects</span>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-8">
+
+          <!-- Project 1: Loan Terms Assistant -->
+          <div class="project-card group">
+            <!-- Header -->
+            <div class="flex items-start justify-between gap-4 mb-5">
+              <div class="project-icon-wrap bg-indigo-500/10 border border-indigo-500/20">
+                <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+              </div>
+              <div class="flex gap-2 flex-wrap justify-end">
+                <span class="project-status-badge project-status-badge--ai">AI / NLP</span>
+                <span class="project-status-badge">RAG</span>
+              </div>
+            </div>
+
+            <!-- Title & Description -->
+            <h3 class="text-xl font-semibold text-slate-100 mb-2 group-hover:text-indigo-300 transition-colors">Loan Terms Assistant</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-5">
+              A scoped and secure AI chatbot that answers questions exclusively about a loan product's terms and conditions. Built with a RAG pipeline — the model reads a real loan document and retrieves exact answers with page citations. Off-topic questions are automatically refused, keeping the assistant focused and trustworthy.
+            </p>
+
+            <!-- Screenshot -->
+            <div class="project-screenshot mb-5">
+              <div class="project-screen-bar">
+                <span class="w-2.5 h-2.5 rounded-full bg-red-500/60"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/60"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-green-500/60"></span>
+                <span class="text-slate-600 text-xs ml-2 font-mono">Loan Terms Assistant — Gradio</span>
+              </div>
+              <div class="project-screen-body bg-white/5 p-4 rounded-b-xl">
+                <div class="space-y-3">
+                  <div class="flex justify-end">
+                    <div class="bg-amber-100/10 border border-amber-200/20 rounded-xl px-4 py-2 text-xs text-amber-200 max-w-xs">Show me everything about interest rates in the document.</div>
+                  </div>
+                  <div class="bg-slate-800/80 rounded-xl px-4 py-3 text-xs text-slate-300 space-y-1.5">
+                    <p class="text-slate-400 text-[11px]">○ "Interest is accrued daily on number of days..." (p. 3)</p>
+                    <p class="text-slate-400 text-[11px]">○ "Interest rate: as provided in the Application Form..." (p. 3)</p>
+                    <p class="text-slate-400 text-[11px]">○ "Default interest applicable to unpaid interests..." (p. 4)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tech stack -->
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Gradio</span>
+              <span class="tech-tag">RAG Pipeline</span>
+              <span class="tech-tag">LLM</span>
+              <span class="tech-tag">Document QA</span>
+            </div>
+
+            <!-- Links -->
+            <div class="flex gap-3 pt-5 border-t border-slate-700/50">
+              <a href="https://github.com/otabekboymirzayev55-prog/loan-terms-assistant" target="_blank" rel="noopener noreferrer" class="project-link project-link--gh">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Multi-Agent AI Analyst -->
+          <div class="project-card group">
+            <!-- Header -->
+            <div class="flex items-start justify-between gap-4 mb-5">
+              <div class="project-icon-wrap bg-violet-500/10 border border-violet-500/20">
+                <svg class="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div class="flex gap-2 flex-wrap justify-end">
+                <span class="project-status-badge project-status-badge--live">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  Live
+                </span>
+                <span class="project-status-badge project-status-badge--ai">Multi-Agent</span>
+              </div>
+            </div>
+
+            <!-- Title & Description -->
+            <h3 class="text-xl font-semibold text-slate-100 mb-2 group-hover:text-violet-300 transition-colors">Multi-Agent AI Analyst</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-5">
+              A live AI-powered business analyst that answers natural language questions about customers, revenue, and business data. Uses a multi-agent architecture — a supervisor coordinates specialized agents (data, SQL, generator, critic) to reason over the query, fetch data, and verify the answer before responding.
+            </p>
+
+            <!-- Screenshot -->
+            <div class="project-screenshot mb-5">
+              <div class="project-screen-bar bg-slate-800">
+                <span class="w-2.5 h-2.5 rounded-full bg-red-500/60"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/60"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-green-500/60"></span>
+                <span class="text-slate-500 text-xs ml-2 font-mono">multi-agent-ai-analyst-ui.onrender.com</span>
+                <span class="ml-auto flex items-center gap-1 text-[11px] text-emerald-400 font-medium">● Live</span>
+              </div>
+              <div class="project-screen-body bg-slate-900/80 p-4 rounded-b-xl">
+                <div class="space-y-3">
+                  <div class="flex justify-end">
+                    <div class="bg-violet-500/80 rounded-2xl rounded-tr-sm px-4 py-2 text-xs text-white max-w-xs">how much was the revenue?</div>
+                  </div>
+                  <div class="flex gap-2 items-start">
+                    <div class="w-7 h-7 rounded-full bg-slate-700 flex items-center justify-center flex-shrink-0">
+                      <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+                    </div>
+                    <div class="bg-slate-800 rounded-2xl rounded-tl-sm px-4 py-3 text-xs text-slate-200">
+                      The total revenue is 5,390.0.
+                      <p class="text-slate-600 text-[10px] mt-1">supervisor→data→data(sql)→supervisor→generate→critic(ok)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tech stack -->
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Multi-Agent</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">LangGraph</span>
+              <span class="tech-tag">Render</span>
+            </div>
+
+            <!-- Links -->
+            <div class="flex gap-3 pt-5 border-t border-slate-700/50">
+              <a href="https://github.com/otabekboymirzayev55-prog/multi-agent-ai-analyst" target="_blank" rel="noopener noreferrer" class="project-link project-link--gh">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
+                View on GitHub
+              </a>
+              <a href="https://multi-agent-ai-analyst-ui.onrender.com" target="_blank" rel="noopener noreferrer" class="project-link project-link--live">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
          CONTACT SECTION
     ═══════════════════════════════════════════ -->
     <section id="contact" class="py-24 lg:py-36 relative bg-slate-900/40">
@@ -464,7 +614,7 @@
 
       <div class="relative max-w-7xl mx-auto px-6 lg:px-10">
         <div class="section-eyebrow mb-16">
-          <span class="eyebrow-slash">// 04</span>
+          <span class="eyebrow-slash">// 05</span>
           <span class="eyebrow-label">Contact</span>
         </div>
 
