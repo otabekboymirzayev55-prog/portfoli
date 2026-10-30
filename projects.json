@@ -20,7 +20,7 @@
     "title": "Multi-Agent AI Analyst",
     "category": "AI Agents",
     "featured": true,
-    "status": "Demo online · AI service unavailable",
+    "status": "Gemini verified locally · public AI setup pending",
     "demo": "https://multi-agent-ai-analyst-ui.onrender.com/",
     "description": "A supervisor coordinates specialist agents for business questions, document retrieval and SQL analysis. Session isolation and bounded failures protect the public chat experience.",
     "stack": [
@@ -36,7 +36,7 @@
     "title": "Loan Terms Assistant",
     "category": "RAG & NLP",
     "featured": true,
-    "status": "Source available · setup required",
+    "status": "Gemini document Q&A verified locally · no public demo",
     "description": "Document-grounded questions and answers about loan terms, with page citations, topic restrictions and answer grounding checks. Requires a loan document, an index and provider credentials.",
     "stack": [
       "Python",
