@@ -286,8 +286,9 @@ if (form) {
     btnIcon.classList.add('hidden');
     btnSpinner.classList.remove('hidden');
 
-    // Simulate async send (replace with real fetch to a backend/form service)
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    const subject = encodeURIComponent(getField('subject').value.trim());
+    const body = encodeURIComponent(`Name: ${getField('name').value.trim()}\nEmail: ${getField('email').value.trim()}\n\n${getField('message').value.trim()}`);
+    window.location.href = `mailto:otabekboymirzayev16@gmail.com?subject=${subject}&body=${body}`;
 
     // Success state
     submitBtn.style.display = 'none';
@@ -326,7 +327,7 @@ function animateCounter(el, target, duration = 1200) {
 }
 
 const statEls = $$('.font-display.text-3xl.font-800.text-indigo-400');
-const statValues = [2, 3, 100]; // matches the stat numbers
+const statValues = []; // matches the stat numbers
 let statsAnimated = false;
 
 const statsObserver = new IntersectionObserver(
@@ -354,3 +355,16 @@ const profileImg = $('.profile-img');
 if (profileImg && 'loading' in HTMLImageElement.prototype) {
   profileImg.setAttribute('loading', 'lazy');
 }
+
+// project-directory-search: static cards remain visible when JavaScript is unavailable.
+const projectSearch = document.getElementById('project-search');
+projectSearch?.addEventListener('input', () => {
+  const query = projectSearch.value.trim().toLocaleLowerCase();
+  let visible = 0;
+  document.querySelectorAll('#project-directory .project-card').forEach(card => {
+    card.hidden = !card.textContent.toLocaleLowerCase().includes(query);
+    if (!card.hidden) visible++;
+  });
+  document.getElementById('project-count').textContent = `${visible} project${visible === 1 ? '' : 's'}`;
+  document.getElementById('project-empty').hidden = visible !== 0;
+});

@@ -792,3 +792,5 @@ a.contact-info-link:hover {
   border-color: rgba(52, 211, 153, 0.5);
   color: #6ee7b7;
 }
+
+.project-category{color:#a5b4fc;font-size:.75rem;margin-bottom:.75rem}.project-state{font-size:.75rem;color:#cbd5e1;margin:.75rem 0 1rem}.project-card[hidden]{display:none}#project-directory{margin-top:1rem}

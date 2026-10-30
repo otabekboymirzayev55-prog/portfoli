@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "topsiagent",
+    "title": "TopAgent",
+    "category": "AI Agents",
+    "featured": true,
+    "status": "Public demo · provider setup required",
+    "demo": "https://topagent-frontend.vercel.app/",
+    "description": "Conversational product discovery with search, product comparison, account chat history and saved products. Retailer links are available; automatic checkout is not enabled.",
+    "stack": [
+      "JavaScript",
+      "Claude / Gemini",
+      "Express",
+      "Supabase"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/topsiagent"
+  },
+  {
+    "slug": "multi-agent-ai-analyst",
+    "title": "Multi-Agent AI Analyst",
+    "category": "AI Agents",
+    "featured": true,
+    "status": "Demo interface online · API under repair",
+    "demo": "https://multi-agent-ai-analyst-ui.onrender.com/",
+    "description": "A supervisor coordinates specialist agents for business questions, document retrieval and SQL analysis. Session isolation and bounded failures protect the public chat experience.",
+    "stack": [
+      "Python",
+      "LangGraph",
+      "FastAPI",
+      "React"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/multi-agent-ai-analyst"
+  },
+  {
+    "slug": "loan-terms-assistant",
+    "title": "Loan Terms Assistant",
+    "category": "RAG & NLP",
+    "featured": true,
+    "status": "Source available · setup required",
+    "description": "Document-grounded questions and answers about loan terms, with page citations, topic restrictions and answer grounding checks. Requires a loan document, an index and provider credentials.",
+    "stack": [
+      "Python",
+      "Gradio",
+      "Qdrant",
+      "RAG"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/loan-terms-assistant"
+  },
+  {
+    "slug": "MLOps_churn-",
+    "title": "Churn MLOps",
+    "category": "Machine Learning",
+    "featured": true,
+    "status": "Locally verified · 19 tests passed",
+    "description": "Telecom churn scoring with a shared training pipeline, model tracking, FastAPI prediction service and Streamlit dashboard. Includes readiness checks and container orchestration.",
+    "stack": [
+      "scikit-learn",
+      "MLflow",
+      "FastAPI",
+      "Streamlit"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/MLOps_churn-"
+  },
+  {
+    "slug": "neuralnetwork",
+    "title": "MNIST Network from Scratch",
+    "category": "Machine Learning",
+    "status": "Source available · training required",
+    "description": "A 784 → 128 → 64 → 10 network implemented in NumPy with backpropagation, mini-batch SGD and prediction visualizations. The repository reports 96.46% test accuracy; this audit does not reproduce the full training run.",
+    "stack": [
+      "Python",
+      "NumPy",
+      "Backpropagation"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/neuralnetwork"
+  },
+  {
+    "slug": "uznlp",
+    "title": "UzNLP",
+    "category": "RAG & NLP",
+    "status": "Rule-based library",
+    "description": "Uzbek language utilities for transliteration, tokenization, suffix stemming, dictionary-based sentiment and entity recognition. A lightweight baseline rather than a trained language model.",
+    "stack": [
+      "Python",
+      "Uzbek NLP",
+      "Text processing"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/uznlp"
+  },
+  {
+    "slug": "sales-bot",
+    "title": "Telegram Sales Bot",
+    "category": "Automation",
+    "status": "Source available · bot credentials required",
+    "description": "A Telegram lead intake flow that collects a product request, budget and timing, then forwards the completed lead to the configured sales chat.",
+    "stack": [
+      "Node.js",
+      "Telegraf",
+      "Telegram"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/sales-bot"
+  },
+  {
+    "slug": "ustatop",
+    "title": "UstaTop / UstaFix",
+    "category": "Web Applications",
+    "status": "Prototype · Firebase setup required",
+    "description": "A service marketplace prototype with customer requests, worker profiles and deal workflows. The repository contains both a React starter and a newer Vite/Firebase application.",
+    "stack": [
+      "React",
+      "Vite",
+      "Firebase"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/ustatop"
+  },
+  {
+    "slug": "ai-design-skills",
+    "title": "AI Design Skills",
+    "category": "Developer Tools",
+    "status": "Adapted collection · upstream credited",
+    "description": "A collection of landing-page and design-to-motion instructions for AI coding tools. Based on the credited elayadesign collection; presented as a toolkit, not an original deployed product.",
+    "stack": [
+      "Markdown",
+      "Design systems",
+      "AI tooling"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/ai-design-skills"
+  },
+  {
+    "slug": "portfoli",
+    "title": "This Portfolio",
+    "category": "Web Applications",
+    "status": "Static website",
+    "description": "A responsive portfolio and searchable project directory. Every public GitHub repository is listed with an honest setup or verification status.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/otabekboymirzayev55-prog/portfoli"
+  }
+]
