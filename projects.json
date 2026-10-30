@@ -4,7 +4,7 @@
     "title": "TopAgent",
     "category": "AI Agents",
     "featured": true,
-    "status": "Public demo · provider setup required",
+    "status": "Public demo available",
     "demo": "https://topagent-frontend.vercel.app/",
     "description": "Conversational product discovery with search, product comparison, account chat history and saved products. Retailer links are available; automatic checkout is not enabled.",
     "stack": [
@@ -20,7 +20,7 @@
     "title": "Multi-Agent AI Analyst",
     "category": "AI Agents",
     "featured": true,
-    "status": "Demo interface online · API under repair",
+    "status": "Demo online · AI service unavailable",
     "demo": "https://multi-agent-ai-analyst-ui.onrender.com/",
     "description": "A supervisor coordinates specialist agents for business questions, document retrieval and SQL analysis. Session isolation and bounded failures protect the public chat experience.",
     "stack": [
@@ -51,7 +51,7 @@
     "title": "Churn MLOps",
     "category": "Machine Learning",
     "featured": true,
-    "status": "Locally verified · 19 tests passed",
+    "status": "Local application · container tests passed",
     "description": "Telecom churn scoring with a shared training pipeline, model tracking, FastAPI prediction service and Streamlit dashboard. Includes readiness checks and container orchestration.",
     "stack": [
       "scikit-learn",
