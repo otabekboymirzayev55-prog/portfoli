@@ -13,7 +13,8 @@
       "Express",
       "Supabase"
     ],
-    "github": "https://github.com/otabekboymirzayev55-prog/topsiagent"
+    "github": "https://github.com/otabekboymirzayev55-prog/topsiagent",
+    "study": "projects/topsiagent.html"
   },
   {
     "slug": "multi-agent-ai-analyst",
@@ -29,7 +30,8 @@
       "FastAPI",
       "React"
     ],
-    "github": "https://github.com/otabekboymirzayev55-prog/multi-agent-ai-analyst"
+    "github": "https://github.com/otabekboymirzayev55-prog/multi-agent-ai-analyst",
+    "study": "projects/multi-agent-ai-analyst.html"
   },
   {
     "slug": "loan-terms-assistant",
@@ -44,7 +46,8 @@
       "Qdrant",
       "RAG"
     ],
-    "github": "https://github.com/otabekboymirzayev55-prog/loan-terms-assistant"
+    "github": "https://github.com/otabekboymirzayev55-prog/loan-terms-assistant",
+    "study": "projects/loan-terms-assistant.html"
   },
   {
     "slug": "MLOps_churn-",
@@ -59,7 +62,8 @@
       "FastAPI",
       "Streamlit"
     ],
-    "github": "https://github.com/otabekboymirzayev55-prog/MLOps_churn-"
+    "github": "https://github.com/otabekboymirzayev55-prog/MLOps_churn-",
+    "study": "projects/MLOps_churn-.html"
   },
   {
     "slug": "neuralnetwork",
